@@ -1,0 +1,188 @@
+body{
+    overflow: hidden;
+}
+    
+.tip{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Epilogue", serif;
+    padding-top: 20px;
+}
+
+.tip img{
+    width: 150px;
+}
+
+.tipleft{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+p{
+    font-size: 18px;
+}
+
+.login{
+    font-size: 18px;
+    background-color: white;
+    border: 0;
+    padding: 10px;
+}
+
+.register{
+    font-size: 18px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.main h1{
+    font-size: 110px;
+    margin: 0;
+}
+
+.main p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.main{
+    font-family: "Epilogue", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+
+.main img{
+    height: 700px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 1000px;
+}
+
+.learn{
+    font-family: "Epilogue", serif;
+    padding: 20px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.learn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.companies{
+    display: flex;
+    justify-content: space-between;
+}
+
+.companies img{
+    height: 30px;
+}
+
+.features{
+    position: absolute;
+    box-shadow: 5px 5px 20px gray;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+    left: 300px;
+    top: 100px;
+}
+
+.feature img{
+    height: 20px;
+}
+
+.feature p{
+    margin: 0;
+    padding: 2px;
+}
+
+.bltf{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bltf img{
+    height: 10px;
+    width: 15px;
+}
+
+.bltc{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bltc img{
+    height: 10px;
+    width: 15px;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cmpn{
+    position: absolute;
+    box-shadow: 5px 5px 20px gray;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+    left: 520px;
+    top: 100px;
+}
+
+.acctive{
+    display: block;
+}
+
+.active{
+    display: block;
+}
+
+.up2{
+    display: none;
+}
+
+.activedown2{
+    display: none;
+}
+
+.activeup2{
+    display: block;
+}
+
+.up1{
+    display: none;
+}
+
+.activedown{
+    display: none;
+}
+
+.activeup{
+    display: block;
+}
