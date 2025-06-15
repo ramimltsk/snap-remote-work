@@ -1,107 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="kjdfgn.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
- <div class="tip">
-  <div class="tipleft">
-    <img src="images/logo.svg" alt="">
-    <div class="bltf">
-      <p>Features</p>
-      <img class="up1" src="images/icon-arrow-up.svg" alt="">
-      <img class="down1" src="images/icon-arrow-down.svg" alt=""></img>
+  <div class="tip">
+    <div class="tipleft">
+      <img src="images/logo.svg" alt="">
+      <div class="bltf">
+        <p>Features</p>
+        <img class="up1" src="images/icon-arrow-up.svg" alt="">
+        <img class="down1" src="images/icon-arrow-down.svg" alt=""></img>
 
+      </div>
+
+      <div class="bltc">
+        <p class="companybtn">Company</p>
+        <img class="up2" src="images/icon-arrow-up.svg" alt="">
+        <img class="down2" src="images/icon-arrow-down.svg" alt="">
+
+      </div>
+      <p>Careers</p>
+      <p>About</p>
     </div>
-
-    <div class="bltc">
-    <p class="companybtn">Company</p>
-    <img class="up2" src="images/icon-arrow-up.svg" alt="">
-    <img class="down2" src="images/icon-arrow-down.svg" alt="">
-
-    </div>
-    <p>Careers</p>
-    <p>About</p>
-  </div>
 
     <div class="logindiv">
       <button class="login">Login</button>
       <button class="register">Register</button>
     </div>
- </div> 
-
-
- <div class="main">
-  <div class="left">
-    <div class="lefttxt">
-      <h1>Make <br> remote work</h1>
-      <p>Get your team in sync, no matter your location. <br> Streamline processes, create team rituals, and <br> watch productivity soar.</p>
-      <button class="learn"> Learn more</button>
-  </div>
-    <div class="companies">
-      <img class="comp" src="images/client-databiz.svg" alt="">
-      <img class="comp"  src="images/client-audiophile.svg" alt="">
-      <img class="comp"  src="images/client-meet.svg" alt="">
-      <img class="comp"  src="images/client-maker.svg" alt="">
-
-    </div>
   </div>
 
-  <div class="right">
-    <img src="images/image-hero-desktop.png" alt="">
-  </div>
-
-
-  <div class="features">
-    <div class="feature">
-      <img  src="images/icon-todo.svg" alt="">
-      <p>Todo List</p>
-    </div>
-
-    <div class="feature">
-      <img  src="images/icon-calendar.svg" alt="">
-      <p>Calendar</p>
-    </div>
-
-    <div class="feature">
-      <img  src="images/icon-reminders.svg" alt="">
-      <p>Reminders</p>
-    </div>
-
-    <div class="feature">
-      <img  src="images/icon-planning.svg" alt="">
-      <p>Planning</p>
-    </div>
+  <div class="mobile-tip">
+    <img src="images/logo.svg" alt="">
+    <button class="menubutton">
+      <img src="images/icon-menu.svg" alt="">
+    </button>
 
   </div>
 
 
-  <div class="cmpn">
-    <p>History</p>
-    <p>Our Team</p>
-    <p>Blog</p>
+  <div class="main">
+    <img class="alt-image" src="images/image-hero-mobile.png" alt="">
+    <div class="left">
+      <div class="lefttxt">
+        <h1 class="maintitle">Make remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and
+          watch productivity soar.</p>
+        <button class="learn"> Learn more</button>
+      </div>
+      <div class="companies">
+        <img class="comp" src="images/client-databiz.svg" alt="">
+        <img class="comp" src="images/client-audiophile.svg" alt="">
+        <img class="comp" src="images/client-meet.svg" alt="">
+        <img class="comp" src="images/client-maker.svg" alt="">
+
+      </div>
+    </div>
+
+    <div class="right">
+      <img class="bigimage" src="images/image-hero-desktop.png" alt="">
+    </div>
+
+
+    <div class="features">
+      <div class="feature">
+        <img src="images/icon-todo.svg" alt="">
+        <p>Todo List</p>
+      </div>
+
+      <div class="feature">
+        <img src="images/icon-calendar.svg" alt="">
+        <p>Calendar</p>
+      </div>
+
+      <div class="feature">
+        <img src="images/icon-reminders.svg" alt="">
+        <p>Reminders</p>
+      </div>
+
+      <div class="feature">
+        <img src="images/icon-planning.svg" alt="">
+        <p>Planning</p>
+      </div>
+
+    </div>
+
+
+    <div class="cmpn">
+      <p>History</p>
+      <p>Our Team</p>
+      <p>Blog</p>
+    </div>
+
   </div>
 
- </div>
+  <div class="popups">
+    <img src="images/icon-close-menu.svg" alt="">
 
- <script src="jaav.js"></script>
+    <div>
+      <p>Features</p>
+      <img class="up" src="images/icon-arrow-up.svg" alt="">
+
+    </div>
+
+
+    <div>
+      <div class="altfeatures">
+        <div class="altfeature">
+          <img src="images/icon-todo.svg" alt="">
+          <p>Todo List</p>
+        </div>
+
+        <div class="altfeature">
+          <img src="images/icon-calendar.svg" alt="">
+          <p>Calendar</p>
+        </div>
+
+        <div class="altfeature">
+          <img src="images/icon-reminders.svg" alt="">
+          <p>Reminders</p>
+        </div>
+
+        <div class="altfeature">
+          <img src="images/icon-planning.svg" alt="">
+          <p>Planning</p>
+        </div>
+
+      </div>
+
+      <div class="cmpn">
+        <p>History</p>
+        <p>Our Team</p>
+        <p>Blog</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="jaav.js"></script>
 </body>
+
 </html>

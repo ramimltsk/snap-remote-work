@@ -1,20 +1,24 @@
-const features = document.querySelector (".features")
+const features = document.querySelector(".features")
 
-const bltf = document.querySelector (".bltf")
+const bltf = document.querySelector(".bltf")
 
 
 
-const up1 = document.querySelector (".up1")
+const up1 = document.querySelector(".up1")
 
-const up2 = document.querySelector (".up2")
+const up2 = document.querySelector(".up2")
 
-const down1 = document.querySelector (".down1")
+const down1 = document.querySelector(".down1")
 
-const down2 = document.querySelector (".down2")
+const down2 = document.querySelector(".down2")
 
-const companybtn = document.querySelector (".companybtn")
+const companybtn = document.querySelector(".companybtn")
 
-const cmpn = document.querySelector (".cmpn")
+const cmpn = document.querySelector(".cmpn")
+
+const menubtn = document.querySelector(".menubutton")
+
+const popups = document.querySelector(".popups")
 
 bltf.addEventListener("click", () => {
     features.classList.toggle("active");
@@ -28,6 +32,13 @@ companybtn.addEventListener("click", () => {
     down2.classList.toggle("activedown2")
     cmpn.classList.toggle("acctive");
 })
+
+menubtn.addEventListener("click", () => {
+    popups.style.display = "block"
+    popups.style.right = "0"
+})
+
+
 
 
 
