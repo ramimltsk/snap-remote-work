@@ -20,6 +20,17 @@ const menubtn = document.querySelector(".menubutton")
 
 const popups = document.querySelector(".popups")
 
+const featuresalt = document.querySelector(".features-alt")
+
+const companyalt = document.querySelector(".company-alt")
+
+const altfeatures = document.querySelector(".altfeatures")
+
+const cmpnalt = document.querySelector(".cmpnalt")
+
+const closemenu = document.querySelector(".closemenu")
+
+
 bltf.addEventListener("click", () => {
     features.classList.toggle("active");
     up1.classList.toggle("activeup")
@@ -37,6 +48,22 @@ menubtn.addEventListener("click", () => {
     popups.style.display = "block"
     popups.style.right = "0"
 })
+
+featuresalt.addEventListener("click", () => {
+    altfeatures.classList.toggle("active")
+
+})
+
+companyalt.addEventListener("click", () => {
+    cmpnalt.classList.toggle("active")
+})
+
+closemenu.addEventListener("click", () => {
+    popups.style.display = "none"
+    popups.style.right = "-400"
+})
+
+
 
 
 

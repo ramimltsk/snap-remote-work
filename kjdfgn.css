@@ -161,7 +161,6 @@ p {
 .altfeature {
     display: flex;
     align-items: center;
-    gap: ;
 }
 
 .cmpn {
@@ -173,6 +172,11 @@ p {
     display: none;
     left: 520px;
     top: 100px;
+}
+
+.cmpnalt {
+    display: none;
+    padding-bottom: 20px;
 }
 
 .acctive {
@@ -227,9 +231,45 @@ p {
     display: none;
     position: absolute;
     right: -376px;
-    width: 200px;
+    width: 300px;
     height: 100%;
     background-color: white;
+    padding: 30px;
+}
+
+.cmpnfeatures {
+    margin-left: 3 0px;
+}
+
+.altoption {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.altbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.altbtn {
+    background-color: white;
+    height: 50px;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.loginbtn {
+    border: 0;
+}
+
+.closediv {
+    display: flex;
+    justify-content: end;
+    width: 100%;
 }
 
 @media(max-width: 1510px) {
